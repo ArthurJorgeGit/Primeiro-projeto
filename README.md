@@ -1,5 +1,5 @@
-Esse será meu primeiro projeto criado do zero sem auxílio utilizando somente ensinamentos de cursos que estou fazendo para criar familiaridade com criação de códigos.
+Esse será um projeto utilizado para treinamento e aperfeiçoamento de HTML, CSS, JAVASCRIPT e REACT com auxílio de cursos
 
 Dia 30/07/2025 estou iniciando esse projeto
 Nome: Arthur Jorge Soares Silveira
-Projeto escolhido: Finanças Pessoais
+
