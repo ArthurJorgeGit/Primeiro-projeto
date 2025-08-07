@@ -1,12 +1,151 @@
 /* 4 External CSS */
 
-body
-{
-    padding-bottom: 500px;
+body {
+  padding-bottom: 500px;
 }
 
-h3
-{
-    color: green;
-    font-size: 60px;
+h3 {
+  color: green;
+  font-size: 60px;
 }
+
+/* 8 Classes */
+
+.paragraph {
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+/* 9 - ID */
+
+#exclusive-title {
+  color: blueviolet;
+  background-color: yellowgreen;
+  padding: 10px;
+}
+
+/* Ordem das regras */
+
+h2 {
+  background-color: yellow;
+  padding: 15px;
+  color: blue;
+  border-bottom: 2px solid red;
+}
+
+.algum-titulo {
+  border-bottom: 2px solid blueviolet;
+}
+
+#titulo {
+    background-color: silver;
+    border-bottom:  10px solid green;
+    color: black;
+}
+
+/* 11 - Nome de cores */ 
+
+.color-name {
+    color: hotpink;
+    
+}
+
+/* Hex */ 
+
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #14b832;
+}
+
+/* Aprofundando em Hex */
+
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+
+.rgb {
+    color: rgb(255, 0 , 0);
+}
+
+.mixed-rgb {
+    color: rgb(34, 111, 200);
+}
+
+/* RGBA */
+
+.rgba {
+    color: rgba(21 , 244 , 100 , 0.5);
+}
+
+/* HSL */
+
+.hsl {
+    color: hsl(210, 35%, 48%);
+}
+
+.hsl-2 {
+    color: hsl(21, 10%, 32%);
+}
+
+/* Background */
+
+.bg {
+    color: #14b832;
+    background-color: #436532;
+}
+ .bg-2 {
+    color: yellow;
+    background-color: rgb(2, 5, 7);
+ }
+
+ /* Background opacity */
+
+ .bg-opacity {
+    background-color: #547888;
+    opacity: 0.5;
+ }
+
+ .bg-opacity-2 {
+    background-color: #654;
+    color: #000;
+    opacity: 0.7;
+ }
+
+ /* RGBA com opacidade */
+
+ .rgba-opacity {
+    background-color: rgba(23, 39, 222, 0.2);
+    color: #436589;
+ }
+
+ /* BG com imagem */
+
+ .bg-image {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+ }
+
+ /* Centralizando BG image */
+
+ .not-centered-bg,
+ .centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge.jpg");
+ }
+
+ .centered-bg {
+    background-position: center;
+    background-size: cover;
+ }
