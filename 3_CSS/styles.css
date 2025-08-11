@@ -260,5 +260,236 @@ h2 {
   color: greenyellow;
   padding: 10px;
   border-radius: 20px;
-  border: 10px solid blue ;
+  border: 10px solid blue;
+}
+
+/* Margem */
+
+.margin {
+  margin: 10px;
+  background-color: #14b832;
+}
+
+.margin-top {
+  margin-top: 50px;
+  background-color: #55a398;
+  padding: 10px;
+}
+
+.margin-shorthand {
+  background-color: blue;
+  margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+
+.box-model {
+  margin: 20px;
+  padding: 15px 25px;
+  border: 3px solid #14b832;
+  border-radius: 7px;
+  width: 300px;
+  height: 400px;
+}
+
+/* Desafio 3 */
+
+#box-model-challenge {
+  margin: 15px;
+  padding: 15px;
+  border: 5px solid #459;
+  outline: 5px solid #952;
+  background-color: #123;
+}
+
+.challenge-title {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+/* Text align */
+
+.text-aligned {
+  text-align: right;
+}
+
+.container-center {
+  text-align: center;
+  width: 300px;
+  border: 1px solid red;
+}
+
+/* Text decoration */
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: red;
+  background-color: #14b832;
+  padding: 10px;
+  border: 5px solid yellow;
+  border-radius: 10px;
+}
+
+/* Text transform */
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+/* Letter spacing */
+
+.spacing {
+  letter-spacing: 5px;
+  background-color: #14b832;
+  color: red;
+  border: 10px solid #459;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Fontes */
+
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-style: "Courier New";
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* Font weight */
+
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+/* Font size */
+
+.small {
+  font-size: 6px;
+}
+
+.big {
+  font-size: 75px;
+}
+
+/* Display */
+
+.inline-box {
+  width: 50px;
+  height: 50px;
+  background-color: #4f8;
+  margin: 10px;
+  display: inline-block;
+}
+
+.block {
+  background-color: #111;
+  display: block;
+  margin: 10px;
+  color: #fff;
+}
+
+.invisible {
+  display: none;
+}
+
+/* Static */
+
+.static {
+  position: static;
+  background-color: #14b832;
+  color: rgb(223, 9, 123);
+  padding: 10px;
+  border: 10px solid blue;
+  border-radius: 15px;
+}
+
+/* Relative */
+
+.relative {
+  position: relative;
+  background-color: #6711a4;
+  color: rgb(255, 115, 0);
+  padding: 10px;
+  border: 10px solid rgb(21, 215, 99);
+  border-radius: 15px;
+  top: 100px;
+  left: 40px;
+}
+
+/* absolute */
+
+.absolute {
+  position: absolute;
+  background-color: #b1f004;
+  color: rgb(27, 26, 26);
+  padding: 10px;
+  border: 10px solid rgb(53, 8, 98);
+  border-radius: 15px;
+  top: 2px;
+  right: 2px;
+}
+
+/* Absolute e relative */
+
+.relative-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  margin-top: 120px;
+}
+
+.absolute-1, .absolute-2 {
+  width: 50px;
+  height: 50px;
+  background-color: #436589;
+  position: absolute;
 }
